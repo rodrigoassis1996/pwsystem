@@ -25,11 +25,11 @@
             <div class="menu_section">
                 <h3>Menu</h3>
                 <ul class="nav side-menu">
-                    <li><a href="formaluno.jsp"><i class="fa fa-mortar-board"></i> Aluno <span class="fa fa-chevron-down"></span></a></li>
-                    <li><a><i class="fa fa-users"></i> Turma <span class="fa fa-chevron-down"></span></a></li>
-                    <li><a><i class="fa fa-male"></i> Professor <span class="fa fa-chevron-down"></span></a></li>
-                    <li><a><i class="fa fa-calendar-check-o"></i> Disciplina <span class="fa fa-chevron-down"></span></a></li>
-                    <li><a><i class="fa fa-user"></i> Usuários <span class="fa fa-chevron-down"></span></a></li>
+                    <li><a href="listaaluno.jsp"><i class="fa fa-mortar-board"></i> Aluno </a></li>
+                    <li><a href="listaturma.jsp"><i class="fa fa-users"></i> Turma </a></li>
+                    <li><a href="listaprofessor.jsp"><i class="fa fa-male"></i> Professor </a></li>
+                    <li><a href="listadisciplina.jsp"><i class="fa fa-calendar-check-o"></i> Disciplina </a></li>
+                    <li><a href="listausuario.jsp"><i class="fa fa-user"></i> Usuários </a></li>
                 </ul>
             </div>
         </div>

@@ -26,3 +26,6 @@
 
 <!-- Custom Theme Style -->
 <link href="build/css/custom.min.css" rel="stylesheet">
+
+
+<script type="text/javascript" src="js/jsUtil.js"></script>

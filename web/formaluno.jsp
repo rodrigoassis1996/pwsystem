@@ -27,7 +27,7 @@
                                                     Nome<span class="required">*</span>
                                                 </label>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <input type="text" id="nome" required="required" class="form-control col-md-7 col-xs-12">
+                                                    <input type="text" id="nome" name="nome" required="required" class="form-control col-md-7 col-xs-12">
                                                 </div>
                                             </div>
                                             
@@ -36,42 +36,74 @@
                                                     Sobrenome <span class="required">*</span>
                                                 </label>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <input type="text" id="sobrenome" name="sobreNome" required="required" class="form-control col-md-7 col-xs-12">
+                                                    <input type="text" id="sobrenome" name="sobrenome" required="required" class="form-control col-md-7 col-xs-12">
+                                                </div>
+                                            </div>
+                                            
+                                             <div class="form-group">
+                                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="nascimento">
+                                                    Nascimento <span class="required">*</span>
+                                                </label>
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <input type="datetime-local" id="nascimento" name="nascimento" required="required" class="form-control col-md-7 col-xs-12">
                                                 </div>
                                             </div>
                                             
                                             <div class="form-group">
-                                                <label for="nascimento" class="control-label col-md-3 col-sm-3 col-xs-12">Nascimento</label>
-                                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <input type="text" id="nascimento" class="form-control col-md-7 col-xs-12" data-inputmask="'mask': '99/99/9999'">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Gender</label>
-                                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <div id="gender" class="btn-group" data-toggle="buttons">
-                                                        <label class="btn btn-default" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
-                                                            <input type="radio" name="gender" value="male"> &nbsp; Male &nbsp;
-                                                        </label>
-                                                        <label class="btn btn-primary" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
-                                                            <input type="radio" name="gender" value="female"> Female
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Date Of Birth <span class="required">*</span>
+                                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="email">
+                                                    E-mail <span class="required">*</span>
                                                 </label>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" required="required" type="text">
+                                                    <input type="text" id="email" name="email" required="required" class="form-control col-md-7 col-xs-12">
                                                 </div>
                                             </div>
-                                            <div class="ln_solid"></div>
+                                            
                                             <div class="form-group">
-                                                <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                                                    <button class="btn btn-primary" type="button">Cancel</button>
-                                                    <button class="btn btn-primary" type="reset">Reset</button>
-                                                    <button type="submit" class="btn btn-success">Submit</button>
+                                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="telefone">
+                                                    Telefone: <span class="required">*</span>
+                                                </label>
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <input type="text" id="telefone" name="telefone" required="required" class="form-control col-md-7 col-xs-12">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="cpf">
+                                                    CPF <span class="required">*</span>
+                                                </label>
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <input type="text" id="cpf" name="cpf" required="required" class="form-control col-md-7 col-xs-12">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="usuario">
+                                                    Usuário <span class="required">*</span>
+                                                </label>
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <input type="text" id="usuario" name="usuario" required="required" class="form-control col-md-7 col-xs-12">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="senha">
+                                                    Senha <span class="required">*</span>
+                                                </label>
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <input type="password" id="senha" name="senha" required="required" class="form-control col-md-7 col-xs-12">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <input type="hidden" id="tipo" name="tipo" value="A" required="required" class="form-control col-md-7 col-xs-12">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <input id="btnsalvar" value="Salvar" type="button" class="btn btn-success"/>
+                                                    <a href="listaaluno.jsp" class="btn btn-primary">Voltar</a>
                                                 </div>
                                             </div>
 
